@@ -1,0 +1,605 @@
+{
+  "@metadata": {
+    "authors": [
+      "Gunnar Lauren"
+    ],
+    "last-updated": "2022-04-22",
+    "locale": "es"
+  },
+  
+  "_translationcomment1": "***************************************************************************",
+  "_translationcomment2": "JUST EDIT THE TEXT ON THE RIGHT SIDE FIELD! DON'T REMOVE OR ADD FIELDS!",
+  "_translationcomment3": "***************************************************************************",
+  "ok": "OK",
+  "cancel": "Cancelar",
+  "register": "Registrar",
+  "about": "Acerca",
+  "help": "Ayuda",
+  "deregister": "Dar de baja",
+  "sendinvitation": "Enviar invitación",
+  "filter": "Filtrar",
+  "notregistered": "Debes registrar el email con el cual deseas comunicarte con los demás! ",
+  "verified": "¡Gracias por registrarte en el Mapa de Co-Creadores! Tu correo ha sido verificado.",
+  "removed": "Tus datos se han eliminado.",
+  "messagesent": "Tu mensaje ha sido enviado.",
+  "selectmainarea": "Selecciona tu área de interés principal!",
+  "cantfindsubscription": "No encontramos un registro vinculado a este correo",
+  "cantfindsmessage":"No encontramos tu mensaje",
+  "emailsenttext": "Se ha enviado un email.\nPorfavor leélo y confirma si es tu dirección de correo.\n\nRevisa tu bandeja de correos no deseados si este correo no está en tu bandeja de entrada.",
+  "represents": "Yo represento",
+  "email": "Correo",
+  "country": "País",
+  "state": "Estado/Región",
+  "zip":"Código Postal",
+  "street": "Calle",
+  "name": "Nombre",
+  "phone": "Número de teléfono",
+  "website": "Página web",
+  "aboutme": "Acerca de mí",
+  "mandatory": "Campos obligatorios",
+  "primaryareas": "Área de Interés Primario",
+  "seconaryareas": "Áreas de Interés Secundario",
+  "selfassement": "Hice la autoevaluación y me considero un Co-Creador",
+  "acceptuseragreement": "Acepto los términos y condiciones",
+  "willsentemail":"Se te ha enviado un correo para que verifiques tu dirección de correo",
+  "youremail": "Tu correo",
+  "subject": "Tema",
+  "message": "Mensaje",
+  "verifysendmessage": "Se te ha enviado un correo para verificar que eres quien envía el mensaje. Por favor, dale clic a la liga en el correo.",
+  "alreadyregistred": "Esta dirección de correo ya ha sido registrada.",
+  "notregistred": "Esta dirección de correo no está registrada.",
+  "dataremoved":"Se han eliminado todos tus datos.",
+  "select":"Seleccionar",
+  "deselect":"No seleccionar",
+  
+  "links": {
+    "aboutlink":"http://www.co-creators.website/wp-content/uploads/map/tabs/es_about.pdf",
+    "helplink":"http://www.co-creators.website/wp-content/uploads/map/tabs/es_help.pdf",
+    "selfassessmentlink":"http://www.co-creators.website/wp-content/uploads/map/tabs/es_self-assessment.pdf",
+    "termslink": "http://www.co-creators.website/wp-content/uploads/map/tabs/es_terms_conditions.pdf"
+  },
+     
+  "categorydata" :{
+    "representation_characters": ["P","G","C","N"],
+    "_representationcomment1": "*********************************************************",
+    "_representationcomment2": "¡ÚNICAMENTE EDITA EL CAMPO “nombre” NO ELIMINES NI AÑADAS CAMPOS!",
+    "_representationcomment3": "*********************************************************",
+      "representations": {
+      "data": [
+        { 
+          "id": 1,
+          "name": " A ti mismo – Una persona comprometida"
+        },
+        {
+          "id": 2,
+          "name": " Una organización oficial de gobierno"
+        },
+        {
+          "id": 3,
+          "name": " Una organización comercial"
+        },
+        {
+          "id": 4,
+          "name": " Una organización sin fines de lucro"
+        }
+      ]
+    },
+    "_categorycomment1": "*********************************************************",
+    "_categorycomment2": "ÚNICAMENTE EDITA EL CAMPO “nombre” ¡NO ELIMINES NI AÑADAS CAMPOS!",
+    "_categorycomment3": "*********************************************************",
+    "categories":{
+      "data": [
+        {
+          "id": 1,
+          "text": "Espiritualidad y Religión",
+          "children": [
+            {
+              "id": "1|1",
+              "text": "Evolución Personal",
+              "type": "child"
+            },
+            {
+              "id": "1|2",
+              "text": "Evolución Universal",
+              "type": "child"
+            },
+            {
+              "id": "1|3",
+              "text": "Espiritualidad",
+              "type": "child"
+            },
+            {
+              "id": "1|4",
+              "text": "Religiones Individuales",
+              "type": "child"
+            },
+            {
+              "id": "1|5",
+              "text": "Interreligiones",
+              "type": "child"
+            }
+          ],
+          "a_attr": {
+            "class": "no_checkbox"
+          },
+          "type": "root-1"
+        },
+        {
+          "id": 2,
+          "text": "Ciencia y Tecnología",
+          "children": [
+            {
+              "id": "2|6",
+              "text": "Evolución Consciente",
+              "type": "child"
+            },
+            {
+              "id": "2|7",
+              "text": "Física Cuántica",
+              "type": "child"
+            },
+            {
+              "id": "2|8",
+              "text": "Interdisciplinario",
+              "type": "child"
+            },
+            {
+              "id": "2|9",
+              "text": "Neurociencia",
+              "type": "child"
+            }
+          ],
+          "a_attr": {
+            "class": "no_checkbox"
+          },
+          "type": "root-2"
+        },
+        {
+          "id": 3,
+          "text": "Paz y Relaciones",
+          "children": [
+            {
+              "id": "3|10",
+              "text": "Resolución de Conflictos",
+              "type": "child"
+            },
+            {
+              "id": "3|11",
+              "text": "Educación para la Paz",
+              "type": "child"
+            },
+            {
+              "id": "3|12",
+              "text": "Responsabilidad Social",
+              "type": "child"
+            },
+            {
+              "id": "3|13",
+              "text": "Solidaridad",
+              "type": "child"
+            },
+            {
+              "id": "3|14",
+              "text": "Niñas y Mujeres",
+              "type": "child"
+            },
+            {
+              "id": "3|15",
+              "text": "Niños y Hombres",
+              "type": "child"
+            },
+            {
+              "id": "3|16",
+              "text": "LGBTQIA+",
+              "type": "child"
+            },
+            {
+              "id": "3|17",
+              "text": "Alianzas",
+              "type": "child"
+            },
+            {
+              "id": "3|18",
+              "text": "Juventudes",
+              "type": "child"
+            }
+          ],
+          "a_attr": {
+            "class": "no_checkbox"
+          },
+          "type": "root-3"
+        },
+        {
+          "id": 4,
+          "text": "Medios y Comunicación",
+          "children": [
+            {
+              "id": "4|19",
+              "text": "Nuevas Noticias",
+              "type": "child"
+            },
+            {
+              "id": "4|20",
+              "text": "Cuidado y Autenticidad",
+              "type": "child"
+            },
+            {
+              "id": "4|21",
+              "text": "Transformación",
+              "type": "child"
+            }
+          ],
+          "a_attr": {
+            "class": "no_checkbox"
+          },
+          "type": "root-4"
+        },
+        {
+          "id": 5,
+          "text": "Justicia y Restauración",
+          "children": [
+            {
+              "id": "5|22",
+              "text": "Justicia Restaurativa",
+              "type": "child"
+            },
+            {
+              "id": "5|23",
+              "text": "Reforma en Prisiones",
+              "type": "child"
+            },
+            {
+              "id": "5|24",
+              "text": "Medio Ambiente",
+              "type": "child"
+            },
+            {
+              "id": "5|25",
+              "text": "Derechos Humanos",
+              "type": "child"
+            },
+            {
+              "id": "5|26",
+              "text": "Etnias",
+              "type": "child"
+            },
+            {
+              "id": "5|27",
+              "text": "Derechos de los Refugiados",
+              "type": "child"
+            },
+            {
+              "id": "5|28",
+              "text": "Equidad, Diversidad e Inclusión",
+              "type": "child"
+            }
+          ],
+          "a_attr": {
+            "class": "no_checkbox"
+          },
+          "type": "root-5"
+        },
+        {
+          "id": 6,
+          "text": "Infraestructura & Recursos",
+          "children": [
+            {
+              "id": "6|29",
+              "text": "Información",
+              "type": "child"
+            },
+            {
+              "id": "6|30",
+              "text": "Espacios físicos",
+              "type": "child"
+            },
+            {
+              "id": "6|31",
+              "text": "Mobilidad",
+              "type": "child"
+            },
+            {
+              "id": "6|32",
+              "text": "Reciclaje",
+              "type": "child"
+            }
+          ],
+          "a_attr": {
+            "class": "no_checkbox"
+          },
+          "type": "root-6"
+        },
+        {
+          "id": 7,
+          "text": "Salud y Bienestar",
+          "children": [
+            {
+              "id": "7|33",
+              "text": "Vida Saludable",
+              "type": "child"
+            },
+            {
+              "id": "7|34",
+              "text": "Integrativa",
+              "type": "child"
+            },
+            {
+              "id": "7|35",
+              "text": "Niñez",
+              "type": "child"
+            },
+            {
+              "id": "7|36",
+              "text": "Mental",
+              "type": "child"
+            },
+            {
+              "id": "7|37",
+              "text": "Trauma",
+              "type": "child"
+            },
+            {
+              "id": "7|38",
+              "text": "Mujeres",
+              "type": "child"
+            },
+            {
+              "id": "7|39",
+              "text": "Cuidado Paliativo",
+              "type": "child"
+            }
+          ],
+          "a_attr": {
+            "class": "no_checkbox"
+          },
+          "type": "root-7"
+        },
+        {
+          "id": 8,
+          "text": "Gobernanza & Comunidad",
+          "children": [
+            {
+              "id": "8|40",
+              "text": "Planeación Bioregional",
+              "type": "child"
+            },
+            {
+              "id": "8|41",
+              "text": "Gobernanza Comunitaria",
+              "type": "child"
+            },
+            {
+              "id": "8|42",
+              "text": "Gobernanza Global",
+              "type": "child"
+            },
+            {
+              "id": "8|43",
+              "text": "Iniciativas Comunitarias",
+              "type": "child"
+            },
+            {
+              "id": "8|44",
+              "text": "Politicas Públcas",
+              "type": "child"
+            },
+            {
+              "id": "8|45",
+              "text": "Diseño Urbano",
+              "type": "child"
+            },
+            {
+              "id": "8|46",
+              "text": "Trabajo Social",
+              "type": "child"
+            },
+            {
+              "id": "8|47",
+              "text": "Bienestar",
+              "type": "child"
+            },
+            {
+              "id": "8|48",
+              "text": "Servicio Comunitario",
+              "type": "child"
+            },
+            {
+              "id": "8|49",
+              "text": "Servicios de Gobierno",
+              "type": "child"
+            },
+            {
+              "id": "8|50",
+              "text": "Distribución de Comida",
+              "type": "child"
+            },
+            {
+              "id": "8|51",
+              "text": "Asistencia",
+              "type": "child"
+            },
+            {
+              "id": "8|52",
+              "text": "OSCs",
+              "type": "child"
+            }
+          ],
+          "a_attr": {
+            "class": "no_checkbox"
+          },
+          "type": "root-8"
+        },
+        {
+          "id": 9,
+          "text": "Medio Ambiente, Comida & Agua",
+          "children": [
+            {
+              "id": "9|57",
+              "text": "Clima",
+              "type": "child"
+            },
+            {
+              "id": "9|58",
+              "text": "Energia",
+              "type": "child"
+            },
+            {
+              "id": "9|59",
+              "text": "Construcciones Verdes",
+              "type": "child"
+            },
+            {
+              "id": "9|60",
+              "text": "Población",
+              "type": "child"
+            },
+            {
+              "id": "9|61",
+              "text": "Regenerativo",
+              "type": "child"
+            },
+            {
+              "id": "9|62",
+              "text": "Límites Planetarios",
+              "type": "child"
+            },
+            {
+              "id": "9|63",
+              "text": "Agua",
+              "type": "child"
+            }
+          ],
+          "a_attr": {
+            "class": "no_checkbox"
+          },
+          "type": "root-9"
+        },
+        {
+          "id": 10,
+          "text": "Educación & Aprendizaje",
+          "children": [
+            {
+              "id": "10|65",
+              "text": "Alternativa",
+              "type": "child"
+            },
+            {
+              "id": "10|66",
+              "text": "Bebés y Crianza",
+              "type": "child"
+            },
+            {
+              "id": "10|67",
+              "text": "Pre-primaria",
+              "type": "child"
+            },
+            {
+              "id": "10|68",
+              "text": "Primaria",
+              "type": "child"
+            },
+            {
+              "id": "10|69",
+              "text": "Secundaria",
+              "type": "child"
+            },
+            {
+              "id": "10|70",
+              "text": "Educación Post Secundaria",
+              "type": "child"
+            },
+            {
+              "id": "10|71",
+              "text": "Adultos, educación transformativa ",
+              "type": "child"
+            },
+            {
+              "id": "10|72",
+              "text": "No-Escolaridad",
+              "type": "child"
+            }
+          ],
+          "a_attr": {
+            "class": "no_checkbox"
+          },
+          "type": "root-10"
+        },
+        {
+          "id": 11,
+          "text": "Economía & Negocios",
+          "children": [
+            {
+              "id": "11|73",
+              "text": "Negocios Conscientes",
+              "type": "child"
+            },
+            {
+              "id": "11|74",
+              "text": "Economía Consciente",
+              "type": "child"
+            },
+            {
+              "id": "11|75",
+              "text": "Escucha Compasiva",
+              "type": "child"
+            },
+            {
+              "id": "11|76",
+              "text": "Gratitud",
+              "type": "child"
+            },
+            {
+              "id": "11|77",
+              "text": "Liderazgo",
+              "type": "child"
+            },
+            {
+              "id": "11|78",
+              "text": "Responsibilidad",
+              "type": "child"
+            },
+            {
+              "id": "11|79",
+              "text": "Economía Simbiótica",
+              "type": "child"
+            },
+            {
+              "id": "11|80",
+              "text": "Soluciones Globales",
+              "type": "child"
+            }
+          ],
+          "a_attr": {
+            "class": "no_checkbox"
+          },
+          "type": "root-11"
+        },
+        {
+          "id": 12,
+          "text": "Arte & Cultura",
+          "children": [
+            {
+              "id": "12|81",
+              "text": "Publica",
+              "type": "child"
+            },
+            {
+              "id": "12|82",
+              "text": "Actuación",
+              "type": "child"
+            },
+            {
+              "id": "12|83",
+              "text": "Multimedia",
+              "type": "child"
+            }
+          ],
+          "a_attr": {
+            "class": "no_checkbox"
+          },
+          "type": "root-12"
+        }
+      ]
+    }
+  }
+}

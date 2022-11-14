@@ -1,0 +1,72 @@
+{
+  "zoom": 10,
+  "minZoom": 0,
+  "types": {
+    "root-1": {"icon" : "glyphicon glyphicon-stop root-category1"},
+    "root-2": {"icon" : "glyphicon glyphicon-stop root-category2"},
+    "root-3": {"icon" : "glyphicon glyphicon-stop root-category3"},
+    "root-4": {"icon" : "glyphicon glyphicon-stop root-category4"},
+    "root-5": {"icon" : "glyphicon glyphicon-stop root-category5"},
+    "root-6": {"icon" : "glyphicon glyphicon-stop root-category6"},
+    "root-7": {"icon" : "glyphicon glyphicon-stop root-category7"},
+    "root-8": {"icon" : "glyphicon glyphicon-stop root-category8"},
+    "root-9": {"icon" : "glyphicon glyphicon-stop root-category9"},
+    "root-10": {"icon" : "glyphicon glyphicon-stop root-category10"},
+    "root-11": {"icon" : "glyphicon glyphicon-stop root-category11"},
+    "root-12": {"icon" : "glyphicon glyphicon-stop root-category12"},
+    "child": {"icon" : "glyphicon glyphicon-stop child-category"},
+    "default" : {}
+  },
+  "markerColors": ["bf667b", "b074bc", "724c9f", "38557f", "0283ad", "00a0a0", "31a685", "2b6c28", "469b18", "f2d521", "ee9319", "e33838", "ffffff"],
+  "mapstyles": {
+    "default": [],
+    "hide": [
+      {
+        "featureType": "poi.business",
+        "elementType": "labels.icon",
+        "stylers": [{ "visibility": "off" }]
+      },
+      {
+        "featureType": "transit",
+        "elementType": "labels.icon",
+        "stylers": [{ "visibility": "off" }]
+      },
+      {
+        "featureType": "landscape",
+        "elementType": "labels.icon",
+        "stylers": [{ "visibility": "off" }]
+      },
+      {
+        "featureType": "administrative",
+        "elementType": "labels.icon",
+        "stylers": [{ "visibility": "off" }]
+      },
+      {
+        "featureType": "all",
+        "elementType": "labels.icon",
+        "stylers": [{ "visibility": "off" }]
+      }
+    ]
+  },
+  "_comment_one":"https://codepen.io/Fowerld/full/JjbMvew",
+  "_comment_two":"https://mdbootstrap.com/docs/standard/content-styles/flags/",
+  "languageurl": "http://www.co-creators.website/wp-content/uploads/map",
+  "languages": [
+    {
+      "name":"English",
+      "shortname":"en",
+      "icon": "flag-icon-us"
+    },
+    {
+      "name":"Español",
+      "shortname":"es",
+      "icon": "flag-icon-es"
+    },
+    {
+      "name":"Português",
+      "shortname":"pt",
+      "icon": "flag-icon-pt"
+    }
+  ]
+
+}
