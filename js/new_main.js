@@ -584,7 +584,7 @@ $(document).ready(function(){
     }, 250);
   });
 
-  $.getJSON("/static/country_state.json", function (data) {
+  $.getJSON("./static/country_state.json", function (data) {
     countrydata = data.countries;
     $("#countryId").empty()
     $.each(countrydata, function(index, value){
@@ -592,7 +592,7 @@ $(document).ready(function(){
    });
   });
   
-  $.getJSON("/static/config.json", function (data) {
+  $.getJSON("./static/config.json", function (data) {
     var language_list = {};
     var languages = [];
     config = data;
